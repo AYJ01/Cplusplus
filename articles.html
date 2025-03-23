@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6 col-lg-4">
+                    <h1 class="fw-bold">Cplusplus</h1>
+                </div>
+                <div class="col-6 col-lg-8 text-end">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                                <li class="nav-item"><a class="nav-link" href="references.html">Reference</a></li>
+                                <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                                <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
+                                <li class="nav-item"><a class="nav-link" href="structure.html">Structure</a></li>
+                                <li class="nav-item d-flex">
+                                    <input type="text" class="form-control me-2" placeholder="Search">
+                                    <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero-section d-flex align-items-center  text-lg-start" style="background: linear-gradient(90deg, rgba(98,149,132,1) 0%, rgba(56,116,120,1) 52%, rgba(2,0,36,1) 100%); height: 25vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 pt-4">
+                    <h1 class="text-white fw-bold display-2">Articles</h1>
+                  
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="about py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold" style="font-size: 2.5rem; color: var(--primary-color);">Articles : C++ Language</h2>
+            <div class="table-responsive">
+                <table class="table table-success table-striped table-hover mt-5">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th><a title="sort by date (oldest first)">Date</a></th>
+                            <th><a title="sort by score">Score</a></th>
+                            <th>Categories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/y807M4Gy/">How to avoid bugs using modern C++</a>
+                            </td>
+                            <td class="author"><a href="/user/PVSCoder/">PVSCoder</a></td>
+                            <td class="date">Sep 16, 2016<br><span class="updated">Updated: Sep 16, 2016</span></td>
+                            <td class="votes">4.3/5 (919 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/tips/">Tips and Tricks</a>,
+                                <a href="/articles/standard_library/">Standard Library</a>,
+                                <a href="/articles/language/">Language Features</a>,
+                                <a href="/articles/howto/">How-To</a>,
+                                <a href="/articles/cpp11/">C++ 11</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/GvRMDjzh/">Learning Computer Programming Terminology</a>
+                            </td>
+                            <td class="author"><a href="/user/Sean_Alvarez/">Sean Alvarez</a></td>
+                            <td class="date">Aug 25, 2016<br><span class="updated">Updated: Aug 25, 2016</span></td>
+                            <td class="votes">3.7/5 (456 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/howto/">How-To</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/LT75fSEw/">C++ class for generate Fibonacci series</a>
+                            </td>
+                            <td class="author"><a href="/user/mhcrnl/">mhcrnl</a></td>
+                            <td class="date">Aug 9, 2016<br><span class="updated">Updated: Aug 9, 2016</span></td>
+                            <td class="votes">3.6/5 (723 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/sourcecode/">Source Code</a>,
+                                <a href="/articles/cpp11/">C++ 11</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/iG3hAqkS/">C++ casting</a>
+                            </td>
+                            <td class="author"><a href="/user/Uk_Marine/">Uk Marine</a></td>
+                            <td class="date">May 15, 2016<br><span class="updated">Updated: May 16, 2016</span></td>
+                            <td class="votes">4.0/5 (472 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/visualcpp/">Visual C++</a>,
+                                <a href="/articles/tips/">Tips and Tricks</a>,
+                                <a href="/articles/sourcecode/">Source Code</a>,
+                                <a href="/articles/howto/">How-To</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/ETqpX9L8/">Safe Clearing of Private Data</a>
+                            </td>
+                            <td class="author"><a href="/user/AndreyKarpov/">AndreyKarpov</a></td>
+                            <td class="date">Apr 6, 2016<br><span class="updated">Updated: Apr 6, 2016</span></td>
+                            <td class="votes">4.6/5 (143 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/tips/">Tips and Tricks</a>,
+                                <a href="/articles/language/">Language Features</a>,
+                                <a href="/articles/howto/">How-To</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                <a href="/articles/DL86b7Xj/">How I Learned A Vital Borland C++ Coding Technique I Couldn't Learn Alone</a>
+                            </td>
+                            <td class="author"><a href="/user/analyzoh/">analyzoh</a></td>
+                            <td class="date">Mar 23, 2016</td>
+                            <td class="votes">3.6/5 (202 votes)</td>
+                            <td class="categories">
+                                <a href="/articles/howto/">How-To</a>,
+                                <a href="/articles/sourcecode/">Source Code</a>,
+                                <a href="/articles/tips/">Tips and Tricks</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+              
+                <div class="col-md-4">
+                    <h5><i class="fas fa-link"></i> Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-cogs"></i> Services</a></li>
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5><i class="fas fa-address-book"></i> Contact</h5>
+                    <p><i class="fas fa-envelope"></i> Email: contact@example.com</p>
+                    <p><i class="fas fa-phone"></i> Phone: +123 456 7890</p>
+                </div>
+             
+                <div class="col-md-4">
+                    <h5><i class="fas fa-share-alt"></i> Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+            <hr class="my-3 border-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 YourCompany. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

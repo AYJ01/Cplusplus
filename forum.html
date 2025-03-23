@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6 col-lg-4">
+                    <h1 class="fw-bold">Cplusplus</h1>
+                </div>
+                <div class="col-6 col-lg-8 text-end">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                                <li class="nav-item"><a class="nav-link" href="references.html">Reference</a></li>
+                                <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                                <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
+                                <li class="nav-item"><a class="nav-link" href="structure.html">Structure</a></li>
+                                <li class="nav-item d-flex">
+                                    <input type="text" class="form-control me-2" placeholder="Search">
+                                    <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero-section d-flex align-items-center  text-lg-start" style="background: linear-gradient(90deg, rgba(98,149,132,1) 0%, rgba(56,116,120,1) 52%, rgba(2,0,36,1) 100%); height: 25vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 pt-4">
+                    <h1 class="text-white fw-bold display-2">Forums</h1>
+                  
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="about py-5" >
+        <div class="container text-center">
+            <h2 class="fw-bold" style="font-size: 2.5rem; color: var(--primary-color);">Forums : C++ Language</h2>
+            <table class="table table-success mt-5"><tbody><tr><th>Forum</th><th>Last active topic</th></tr>
+                <tr class="odd"><td><b><a href="beginner/">Beginners</a></b><br><small>Discussions about C++ programming for beginners</small></td><td><small>"<a href="beginner/285960/">Getter for enum member returns a copy of enum? </a>" <span id="CH_new285960"></span><br>on <span id="CH_zTmb581f73d21" title="Wed, 19 Mar 2025 02:32:39 +0000">Mar 19, 2025 at 8:02am</span><script type="text/javascript">cplusplus.WhenId('CH_zTmb581f73d21');</script><noscript>Mar 19, 2025 at 2:32am UTC</noscript> by TheIdeasMan</small></td></tr>
+                <tr class="even"><td><b><a href="windows/">Windows Programming</a></b><br><small>Win32, MFC, ATL, C++/CLI, .NET ...</small></td><td><small>"<a href="windows/285956/">Formatted Console Log with Datetime</a>" <span id="CH_new285956"></span><br>on <span id="CH_zTm1df6711b98" title="Wed, 12 Mar 2025 15:59:25 +0000">Mar 12, 2025 at 9:29pm</span><script type="text/javascript">cplusplus.WhenId('CH_zTm1df6711b98');</script><noscript>Mar 12, 2025 at 3:59pm UTC</noscript> by seeplus</small></td></tr>
+                <tr class="odd"><td><b><a href="unices/">UNIX/Linux Programming</a></b><br><small>Programming C++ for UNIX and Linux</small></td><td><small>"<a href="unices/285950/">tzdb: cannot locate zone</a>" <span id="CH_new285950"></span><br>on <span id="CH_zTmc7fd0e982a" title="Sun, 02 Mar 2025 20:37:19 +0000">Mar 3, 2025 at 2:07am</span><script type="text/javascript">cplusplus.WhenId('CH_zTmc7fd0e982a');</script><noscript>Mar 2, 2025 at 8:37pm UTC</noscript> by spistol</small></td></tr>
+                <tr class="even"><td><b><a href="general/">General C++ Programming</a></b><br><small>Anything about programming in C++</small></td><td><small>"<a href="general/285959/">Use C++ 20 with Embarcadero</a>" <span id="CH_new285959"></span><br>on <span id="CH_zTm754ccb6104" title="Tue, 18 Mar 2025 03:36:17 +0000">Mar 18, 2025 at 9:06am</span><script type="text/javascript">cplusplus.WhenId('CH_zTm754ccb6104');</script><noscript>Mar 18, 2025 at 3:36am UTC</noscript> by salem c</small></td></tr>
+                <tr class="odd"><td><b><a href="lounge/">Lounge</a></b><br><small>Discussions about this website, or other topics not related to C++ programming</small></td><td><small>"<a href="lounge/285957/">I wrote a cron job!</a>" <span id="CH_new285957"></span><br>on <span id="CH_zTme7c66e8114" title="Sat, 15 Mar 2025 18:02:31 +0000">Mar 15, 2025 at 11:32pm</span><script type="text/javascript">cplusplus.WhenId('CH_zTme7c66e8114');</script><noscript>Mar 15, 2025 at 6:02pm UTC</noscript> by jonnin</small></td></tr>
+                <tr class="even"><td><b><a href="jobs/">Jobs</a></b><br><small>Job offers for C++ programmers.</small></td><td><small>"<a href="jobs/285765/">Jobs</a>" <span id="CH_new285765"></span><br>on <span id="CH_zTmaffcbee327" title="Thu, 18 Apr 2024 14:39:20 +0000">Apr 18, 2024 at 8:09pm</span><script type="text/javascript">cplusplus.WhenId('CH_zTmaffcbee327');</script><noscript>Apr 18, 2024 at 2:39pm UTC</noscript> by deleted account xyzzy</small></td></tr>
+                <tr class="odd"><td><b><a href="articles/">Articles</a></b><br><small>How-to's and other technical articles</small></td><td><small>"<a href="articles/43175/">How to Make a Game 2</a>" <span id="CH_new43175"></span><br>on <span id="CH_zTmccc249b352" title="Fri, 29 Jul 2011 06:51:04 +0000">Jul 29, 2011 at 12:21pm</span><script type="text/javascript">cplusplus.WhenId('CH_zTmccc249b352');</script><noscript>Jul 29, 2011 at 6:51am UTC</noscript> by anonymous23323124</small></td></tr>
+                </tbody></table>
+        </div>
+    </section>
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+             
+                <div class="col-md-4">
+                    <h5><i class="fas fa-link"></i> Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-cogs"></i> Services</a></li>
+                        <li><a href="#" class="text-light text-decoration-none"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-md-4">
+                    <h5><i class="fas fa-address-book"></i> Contact</h5>
+                    <p><i class="fas fa-envelope"></i> Email: contact@example.com</p>
+                    <p><i class="fas fa-phone"></i> Phone: +123 456 7890</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5><i class="fas fa-share-alt"></i> Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+            <hr class="my-3 border-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 YourCompany. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
