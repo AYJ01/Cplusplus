@@ -62,21 +62,6 @@ ASite C++ uses the following technologies:
 - **JavaScript**: For any interactive elements (e.g., navbar functionality, form submissions).
 - **Bootstrap**: For responsive grid layout and easy-to-use components.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/asite-cplusplus.git
-    ```
-2. Navigate into the project directory:
-    ```bash
-    cd asite-cplusplus
-    ```
-3. Open `index.html` in your preferred web browser.
-
-No additional dependencies or installations are required to view the site locally.
 
 ## Contributing
 
